@@ -69,7 +69,7 @@ You will need Python 3.6 or higher installed.
 To run the algorithm, simply execute the Python script:
 
 ```bash
-python tsp_ga_solver.py
+python core.py
 ```
 
 The program will start running and will print the best distance found in each generation. At the end, it will display the best overall tour and its total distance.
@@ -104,7 +104,7 @@ The algorithm uses an evolutionary cycle to progressively improve a population o
 
 ## ⚙️ Configuration
 
-You can adjust the algorithm's hyperparameters at the beginning of the `tsp_ga_solver.py` file to control its behavior:
+You can adjust the algorithm's hyperparameters at the beginning of the `core.py` file to control its behavior:
 
 * `POPULATION_SIZE`: The number of tours in each generation. (Higher value = more diversity, slower execution).
 * `NUM_GENERATIONS`: The total number of generations the algorithm will run.
